@@ -11,7 +11,7 @@ const normalizePort = (val) => {
 
 console.log('starting');
 
-const port = normalizePort(process.env.PORT || '3000');
+const port = normalizePort(process.env.PORT || '5000');
 
 const onError = (error) => {
   console.log(error);
